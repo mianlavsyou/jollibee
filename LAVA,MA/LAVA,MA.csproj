@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{927E40E3-32A0-43BC-85C7-655534C1541D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LAVA_MA</RootNamespace>
+    <AssemblyName>LAVA,MA</AssemblyName>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BestSeller1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BestSeller1.Designer.cs">
+      <DependentUpon>BestSeller1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BestSellerAllowAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BestSellerAllowAccess.Designer.cs">
+      <DependentUpon>BestSellerAllowAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="eight.Designer.cs">
+      <DependentUpon>eight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="facebook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="facebook.Designer.cs">
+      <DependentUpon>facebook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fifth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="fifth.Designer.cs">
+      <DependentUpon>fifth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirstCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FirstCustomer.Designer.cs">
+      <DependentUpon>FirstCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fourth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="fourth.Designer.cs">
+      <DependentUpon>fourth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="nine.Designer.cs">
+      <DependentUpon>nine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="second.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="second.Designer.cs">
+      <DependentUpon>second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="seven.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="seven.Designer.cs">
+      <DependentUpon>seven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="six.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="six.Designer.cs">
+      <DependentUpon>six.cs</DependentUpon>
+    </Compile>
+    <Compile Include="third.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="third.Designer.cs">
+      <DependentUpon>third.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BestSeller1.resx">
+      <DependentUpon>BestSeller1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BestSellerAllowAccess.resx">
+      <DependentUpon>BestSellerAllowAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eight.resx">
+      <DependentUpon>eight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="facebook.resx">
+      <DependentUpon>facebook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fifth.resx">
+      <DependentUpon>fifth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstCustomer.resx">
+      <DependentUpon>FirstCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fourth.resx">
+      <DependentUpon>fourth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nine.resx">
+      <DependentUpon>nine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="second.resx">
+      <DependentUpon>second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="seven.resx">
+      <DependentUpon>seven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="six.resx">
+      <DependentUpon>six.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="third.resx">
+      <DependentUpon>third.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
